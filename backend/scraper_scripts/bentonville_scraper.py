@@ -108,7 +108,7 @@ for event_link in event_links:
     location = location_tags[0].get_text() + " " + location_tags[1].get_text()
     
     record_event_sql = f"""
-    INSERT INTO events (event_link, event_title, event_description, location, datetime_start, datetime_end
+    INSERT INTO events (event_link, event_title, event_description, location, datetime_start, datetime_end)
     VALUES(?,?,?,?,?,?)
     """
 
