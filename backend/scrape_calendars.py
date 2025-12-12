@@ -36,7 +36,11 @@ except Exception as e:
 
 
 scrapers_to_run = [
-        "/home/oldmoldycake/Projects/nwa_calendar/backend/scraper_scripts/fayetteville_scraper.py"
+       "/home/oldmoldycake/Projects/nwa_calendar/backend/scraper_scripts/fayetteville_scraper.py",
+       "/home/oldmoldycake/Projects/nwa_calendar/backend/scraper_scripts/bentonville_scraper.py",
+       "/home/oldmoldycake/Projects/nwa_calendar/backend/scraper_scripts/rogers_scraper.py",
+       "/home/oldmoldycake/Projects/nwa_calendar/backend/scraper_scripts/springdale_scraper.py",
+        
         ]
 
 

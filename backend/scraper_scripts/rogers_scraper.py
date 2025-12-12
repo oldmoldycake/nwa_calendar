@@ -94,5 +94,3 @@ for event_link in event_links:
     cursor.execute(record_event_sql, insert_event_sql)
     conn.commit()
 
-    break
-
